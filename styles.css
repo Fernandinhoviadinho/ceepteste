@@ -1,0 +1,103 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+header {
+    background: #003300;
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav a {
+    color: #ffcc00;
+    text-decoration: none;
+    font-weight: 700;
+    transition: color 0.3s, border-bottom 0.3s;
+}
+
+nav a:hover {
+    color: #ffffff;
+    border-bottom: 2px solid #ffcc00;
+}
+
+main {
+    padding: 100px 0 20px; /* espaço para o cabeçalho fixo */
+}
+
+section {
+    padding: 40px 20px;
+    margin: 20px 0;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #003300;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+h3 {
+    color: #003300;
+    font-size: 1.5rem;
+}
+
+h4 {
+    margin-top: 15px;
+    font-weight: 600;
+}
+
+.accordion {
+    margin-top: 20px;
+}
+
+.accordion-item {
+    border-bottom: 1px solid #ddd;
+}
+
+.accordion-title {
+    padding: 15px;
+    cursor: pointer;
+    font-weight: 700;
+    color: #003300;
+    transition: background
